@@ -1,0 +1,39 @@
+.navbar {
+  border: 2px solid black;
+  font-size: 2rem;
+  width: 12rem;
+  padding: 2rem 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0.05rem;
+  text-align: center;
+}
+
+.navbar > div {
+  _margin-left: 1rem;
+}
+
+.navbar > .projects {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.navbar::before {
+  display: inline-block;
+  content: "";
+  width: 1rem;
+  height: 4rem;
+  background-color: green;
+  position: absolute;
+  _margin-left: 10px;
+  top: 10%;
+  left: 0;
+}
+
+.current {
+  position: absolute;
+  left: 100%;
+  width: 0.5rem;
+  height: 100%;
+  background-color: teal;
+}
